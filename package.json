@@ -4,9 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
-    
+    "test": "echo \"Error: no test specified\" && exit 1"    
   },
   "keywords": [
     "payment",
@@ -17,5 +15,9 @@
   "dependencies": {
     "axios": "^0.27.2",
     "node-fetch": "^3.2.6"
+  },
+  
+  "engines": {
+    "node": "16.x"
   }
 }
